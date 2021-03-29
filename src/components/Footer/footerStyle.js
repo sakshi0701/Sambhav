@@ -10,7 +10,7 @@ margin-bottom: 20px;
 background-color: rgb(189, 192, 196);
 color: white;
 width: 100%;
-position:absolute;
+position: relative;
 bottom:0;
 `;
 
