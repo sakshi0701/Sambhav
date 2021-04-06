@@ -32,7 +32,7 @@ a{
     justify-self: flex-start;
     display: flex;
     align-items: center;
-    margin: 8px 35px;
+    margin: 8px 3px;
     font-size: 40px;
     font-family: 'Lobster', cursive;
     letter-spacing: 2px;

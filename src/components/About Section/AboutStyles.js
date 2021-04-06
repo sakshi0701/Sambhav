@@ -23,12 +23,17 @@ export const SubContainer = styled.div`
 `;
 
 export const Picture = styled.div`
-    border: 2px solid red;
     width: 20%;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+
+    @media screen and (max-width: 414px) {
+        width: 90%;
+        z-index:1;
+    }
 `;
 
 export const Content = styled.div`
@@ -40,6 +45,7 @@ export const Content = styled.div`
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+    z-index: 2;
 `;
 
 export const Heading = styled.h1`
@@ -50,6 +56,14 @@ export const Heading = styled.h1`
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
+
+    @media screen and (max-width: 980px) {
+        font-size: 30px;
+    }
+
+    @media screen and (max-width: 700px) {
+        font-size: 20px;
+    }
 `;
 
 export const FeatureContainer = styled.div`
@@ -61,6 +75,7 @@ export const FeatureContainer = styled.div`
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    background: rgb(240, 240, 240);
 `;
 
 export const Feature = styled.div`
@@ -84,6 +99,14 @@ export const FeatureHeading = styled.h1`
     flex-wrap: wrap;
     font-style: italic;
     color: grey;
+
+    @media screen and (max-width: 360px) {
+        font-size: 50px;
+    }
+
+    @media screen and (max-width: 300px) {
+        font-size: 40px;
+    }
 `;
 
 export const Desc = styled.p`

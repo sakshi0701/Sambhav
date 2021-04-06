@@ -1,0 +1,102 @@
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    overflow: hidden;
+}
+
+.background::before{
+    background: url('../Main/background.png') no-repeat center center/cover;
+    content: "";
+    top: 0;
+    width: 0;
+    height: 400px;
+    width: 230vh;
+    opacity: 0.4;
+}
+
+.buissness {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    overflow: hidden;
+}
+
+.buissness::before{
+    background: url('./images/buissness.svg') no-repeat center center/cover;
+    content: "";
+    top: 0;
+    width: 0;
+    height: 30vh;
+    width: 18rem;
+}
+
+.health {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    overflow: hidden;
+}
+
+.health::before{
+    background: url('./images/health.svg') no-repeat center center/cover;
+    content: "";
+    top: 0;
+    width: 0;
+    height: 30vh;
+    width: 18rem;
+}
+
+.education {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    overflow: hidden;
+}
+
+.education::before{
+    background: url('./images/education.svg') no-repeat center center/cover;
+    content: "";
+    top: 0;
+    width: 0;
+    height: 30vh;
+    width: 18rem;
+}
+
+.environment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    overflow: hidden;
+}
+
+.environment::before{
+    background: url('./images/environment.svg') no-repeat center center/cover;
+    content: "";
+    top: 0;
+    width: 0;
+    height: 30vh;
+    width: 18rem;
+}
+
+.tech {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    overflow: hidden;
+}
+
+.tech::before{
+    background: url('./images/technology.svg') no-repeat center center/cover;
+    content: "";
+    top: 0;
+    width: 0;
+    height: 30vh;
+    width: 18rem;
+}

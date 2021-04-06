@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar/Navbar';
 import Signup from './components/Signup';
-import { Container } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { AuthProvider } from "./contexts/AuthContext";
 import Dashboard from './components/Dashboard';

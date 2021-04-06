@@ -6,29 +6,11 @@ background: linear-gradient(90deg, #fc5185, orange);
 display: flex;
 justify-content: center;
 align-items: center;
-padding: 0 30px;
+// padding: 0 30px;
 height: 400px;
 position: relative;
 background: black;
 z-index: 1;
-`;
-
-export const Background = styled.div`
-position: absolute;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-size: 100%;
-opacity:0.5;
-background-image: url(${image1});
-overflow: hidden;
-
-@media screen and (max-width: 1000px) {
-    background-image: url(${image1});
-}
 `;
 
 export const Content = styled.div`

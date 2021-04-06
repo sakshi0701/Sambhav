@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { Container, SubContainer, Picture, Content, Heading, FeatureContainer, Feature, Title, FeatureHeading, Desc } from './AboutStyles';
+import './image.css';
 
 const About = () => {
     return (
@@ -8,7 +9,7 @@ const About = () => {
 
             <SubContainer>
                 <Picture>
-                    pic
+                    <div className="buissness"></div>
                 </Picture>
                 <Content>
                     <Heading>Buissness</Heading>
@@ -22,13 +23,13 @@ const About = () => {
                     Content
                 </Content>
                 <Picture>
-                    pic
+                <div className="health"></div>
                 </Picture>
             </SubContainer>
 
             <SubContainer>
                 <Picture>
-                    pic
+                <div className="education"></div>
                 </Picture>
                 <Content>
                     <Heading>Education</Heading>
@@ -38,17 +39,17 @@ const About = () => {
 
             <SubContainer>
                 <Content>
-                    <Heading>Agriculture&Environment</Heading>
+                    <Heading>Agriculture</Heading>
                     Content
                 </Content>
                 <Picture>
-                    pic
+                <div className="environment"></div>
                 </Picture>
             </SubContainer>
 
             <SubContainer>
                 <Picture>
-                    pic
+                <div className="tech"></div>
                 </Picture>
                 <Content>
                     <Heading>Technology</Heading>
