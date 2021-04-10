@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { Card, Button, Alert } from "react-bootstrap"
+import { Container, Card, Button, Alert } from "react-bootstrap"
 import { useAuth } from "../contexts/AuthContext"
 import { Link, useHistory } from "react-router-dom"
 
@@ -21,21 +21,41 @@ export default function Dashboard() {
 
   return (
     <>
-      <Card>
-        <Card.Body>
-          <h2 className="text-center mb-4">Profile</h2>
-          {error && <Alert variant="danger">{error}</Alert>}
-          <strong>Email:</strong> {currentUser.email}
-          <Link to="/update-profile" className="btn btn-primary w-100 mt-3">
-            Update Profile
+      <Container className="d-flex align-items-center justify-content-center mt-5">
+        <Card style={{ width: "80%" }}>
+          <Card.Body>
+            <h2 className="text-center mb-4">Profile</h2>
+            {error && <Alert variant="danger">{error}</Alert>}
+            <strong>Email:</strong> {currentUser.email}
+            <Link to="/update-profile" className="btn btn-info w-100 mt-3">
+              Update Profile
           </Link>
-        </Card.Body>
-      </Card>
+          </Card.Body>
+        </Card>
+      </Container>
       <div className="w-100 text-center mt-2">
-        <Button variant="link" onClick={handleLogout}>
+        <button type="button" variant="link" onClick={handleLogout} className="btn btn-outline-primary w-50">
           Log Out
-        </Button>
+        </button>
       </div>
+
+      <Container className="d-flex p-2 align-items-center justify-content-center flex-wrap mt-5">
+        <Card className="m-2" style={{ width: "40%" }}>
+          Buissness
+        </Card>
+
+        <Card className="m-2" style={{ width: "40%" }}>
+          Education
+        </Card>
+
+        <Card className="m-2" style={{ width: "40%" }}>
+          Health
+        </Card>
+
+        <Card className="m-2" style={{ width: "40%" }}>
+          <Link to="/environment">Environment</Link>
+        </Card>
+      </Container>
     </>
   )
 }

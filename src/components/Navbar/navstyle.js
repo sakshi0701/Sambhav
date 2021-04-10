@@ -9,7 +9,7 @@ export const Nav = styled.nav`
     align-items: center;
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 1000;
 
     @media screen and (max-width: 960px) {
         transition: 0.5s all ease; 
@@ -28,22 +28,30 @@ export const NavbarContainer = styled.div`
 
 export const NavLogo = styled.div`
 a{
-   color: white;
+    background: -webkit-linear-gradient(#fff, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
     justify-self: flex-start;
     display: flex;
     align-items: center;
-    margin: 8px 3px;
+    margin: 8px 0;
     font-size: 40px;
     font-family: 'Lobster', cursive;
-    letter-spacing: 2px;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
 
     &:hover {
-        color: white;
         text-decoration: none;
     } 
 }
 `;
 
+export const Logo = styled.div`
+    height: 30px;
+    width: 30px;
+    background: linear-gradient(130deg, #55a630, #eeef20);
+    border-radius: 90% 0 90% 0%;
+    margin: 7px;
+`;

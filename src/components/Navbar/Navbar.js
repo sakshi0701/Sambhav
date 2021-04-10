@@ -1,5 +1,5 @@
 import React from 'react';
-import {Nav,NavbarContainer,NavLogo } from "./navstyle.js";
+import {Nav,NavbarContainer,NavLogo, Logo } from "./navstyle.js";
 import { animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
@@ -12,7 +12,7 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo onClick={toggleHome}><a href="/"> Name</a></NavLogo>                 
+                    <NavLogo onClick={toggleHome}><a href="/"><Logo /><strong>Sambhav</strong><Logo /></a></NavLogo>       
                 </NavbarContainer>
             </Nav>
         </>
