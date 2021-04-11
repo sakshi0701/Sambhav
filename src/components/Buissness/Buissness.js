@@ -5,6 +5,7 @@ const Buissness = () => {
     return (
         <div>
             <Link to="/crypto">Crypto</Link>
+            <Link to="/jobs">Find Jobs</Link>
         </div>
     )
 }

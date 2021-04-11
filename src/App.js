@@ -6,6 +6,7 @@ import { AuthProvider } from "./contexts/AuthContext";
 import Dashboard from './components/Dashboard';
 import Buissness from './components/Buissness/Buissness';
 import Crypto from './components/Buissness/Crypto/Crypto';
+import JobSearch from './components/Buissness/Job/JobSearch';
 import Environment from './components/Environment/Environment';
 import Login from './components/Login';
 import PrivateRoute from './components/PrivateRoute';
@@ -29,6 +30,7 @@ function App() {
                   <PrivateRoute path="/buissness" component={Buissness} />
                   <PrivateRoute path="/environment" component={Environment} />
                   <PrivateRoute path="/crypto" component={Crypto} />
+                  <PrivateRoute path="/jobs" component={JobSearch} />
                   <Route path="/signup" component={Signup} />
                   <Route path="/login" component={Login} />
                   <Route path="/forgot-password" component={ForgotPassword} />
