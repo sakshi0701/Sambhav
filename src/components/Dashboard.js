@@ -45,11 +45,11 @@ export default function Dashboard() {
         </Card>
 
         <Card className="m-2" style={{ width: "40%" }}>
-          Education
+          <Link to="/education">Education</Link>
         </Card>
 
         <Card className="m-2" style={{ width: "40%" }}>
-          Health
+          <Link to="/health">Health</Link>
         </Card>
 
         <Card className="m-2" style={{ width: "40%" }}>

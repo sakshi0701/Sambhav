@@ -7,6 +7,8 @@ import Dashboard from './components/Dashboard';
 import Buissness from './components/Buissness/Buissness';
 import Crypto from './components/Buissness/Crypto/Crypto';
 import JobSearch from './components/Buissness/Job/JobSearch';
+import Health from './components/Health/Health';
+import Education from './components/Education/Education';
 import Environment from './components/Environment/Environment';
 import Login from './components/Login';
 import PrivateRoute from './components/PrivateRoute';
@@ -28,6 +30,8 @@ function App() {
                   <PrivateRoute exact path="/" component={Dashboard} />
                   <PrivateRoute path="/update-profile" component={UpdateProfile} />
                   <PrivateRoute path="/buissness" component={Buissness} />
+                  <PrivateRoute path="/health" component={Health} />
+                  <PrivateRoute path="/education" component={Education} />
                   <PrivateRoute path="/environment" component={Environment} />
                   <PrivateRoute path="/crypto" component={Crypto} />
                   <PrivateRoute path="/jobs" component={JobSearch} />
