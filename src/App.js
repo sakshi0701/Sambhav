@@ -8,6 +8,7 @@ import Buissness from './components/Buissness/Buissness';
 import Crypto from './components/Buissness/Crypto/Crypto';
 import JobSearch from './components/Buissness/Job/JobSearch';
 import Health from './components/Health/Health';
+import Tracker from './components/Health/coronaTracker/Tracker';
 import Education from './components/Education/Education';
 import Environment from './components/Environment/Environment';
 import Login from './components/Login';
@@ -33,6 +34,7 @@ function App() {
                   <PrivateRoute path="/health" component={Health} />
                   <PrivateRoute path="/education" component={Education} />
                   <PrivateRoute path="/environment" component={Environment} />
+                  <PrivateRoute path="/covid" component={Tracker} />
                   <PrivateRoute path="/crypto" component={Crypto} />
                   <PrivateRoute path="/jobs" component={JobSearch} />
                   <Route path="/signup" component={Signup} />

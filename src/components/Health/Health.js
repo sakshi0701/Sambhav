@@ -1,10 +1,10 @@
 import { Container, Card, Carousel } from 'react-bootstrap'
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Health = () => {
     return (
         <>
-
             {/* -------------------------------------------------Carousel-------------------------------------------------- */}
             <Carousel>
                 <Carousel.Item style={{ height: "300px" }}>
@@ -32,7 +32,7 @@ const Health = () => {
             <Card className="mb-3 m-5">
                 <img src="https://images.unsplash.com/photo-1616526628217-c21fd2eef624?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MjkxMDgz&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1400" class="card-img-top" alt="..." />
                 <Card.Body>
-                    <h2 class="card-title text-center text-primary">Corona Tracker</h2>
+                    <Link to="/covid"><h2 class="card-title text-center text-primary">COVID 19</h2></Link>
                     <p class="card-text text-center">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </Card.Body>
             </Card>
