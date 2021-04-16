@@ -8,20 +8,20 @@ const Education = () => {
             {/* -------------------------------------------------Carousel-------------------------------------------------- */}
             <Carousel>
                 <Carousel.Item style={{ height: "300px" }}>
-                    <img src="https://images.unsplash.com/photo-1614607034276-45e1f7c25d88?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4Mjk0OTg5&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1400" />
+                    <img src="https://images.unsplash.com/photo-1614607034276-45e1f7c25d88?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4Mjk0OTg5&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1400" alt="img"/>
                     <Carousel.Caption>
                         <h2>First</h2>
                         <p>abc</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item style={{ height: "300px" }}>
-                    <img src="https://images.unsplash.com/photo-1617639172227-8cd70cf91476?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4Mjk1MDgz&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1400" />
+                    <img src="https://images.unsplash.com/photo-1617639172227-8cd70cf91476?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4Mjk1MDgz&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1400" alt="img"/>
                     <Carousel.Caption>
                         <h2>Sec</h2>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item style={{ height: "300px" }}>
-                    <img src="https://images.unsplash.com/photo-1616400619175-5beda3a17896?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4Mjk0OTc5&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1400" />
+                    <img src="https://images.unsplash.com/photo-1616400619175-5beda3a17896?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4Mjk0OTc5&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1400" alt="img"/>
                     <Carousel.Caption>
                         <h2>3</h2>
                     </Carousel.Caption>
@@ -40,7 +40,7 @@ const Education = () => {
             {/* -------------------------------------------------Skills-------------------------------------------------- */}
             <Container className="d-flex p-2 align-items-center justify-content-center flex-wrap mt-5">
                 <Card className="m-4 mb-3" style={{ width: "18rem" }}>
-                    <img src="https://images.unsplash.com/photo-1617529497471-9218633199c0?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4Mjk0NTc1&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300" />
+                    <img src="https://images.unsplash.com/photo-1617529497471-9218633199c0?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4Mjk0NTc1&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300" alt="img"/>
                     <Card.Body>
                         <h5 class="card-title">Coding</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -49,7 +49,7 @@ const Education = () => {
                 </Card>
 
                 <Card className="m-4 mb-3" style={{ width: "18rem" }}>
-                    <img src="https://images.unsplash.com/photo-1612156514704-478bcd8734a3?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4Mjk0MDk4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300" />
+                    <img src="https://images.unsplash.com/photo-1612156514704-478bcd8734a3?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4Mjk0MDk4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300" alt="img"/>
                     <Card.Body>
                         <h5 class="card-title">Cooking</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -58,7 +58,7 @@ const Education = () => {
                 </Card>
 
                 <Card className="m-4 mb-3" style={{ width: "18rem" }}>
-                    <img src="https://images.unsplash.com/photo-1617529497832-5ad49d9b5928?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4Mjk0Nzgw&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300" />
+                    <img src="https://images.unsplash.com/photo-1617529497832-5ad49d9b5928?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4Mjk0Nzgw&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300" alt="img"/>
                     <Card.Body>
                         <h5 class="card-title">Reading</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

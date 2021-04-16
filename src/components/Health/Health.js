@@ -8,20 +8,20 @@ const Health = () => {
             {/* -------------------------------------------------Carousel-------------------------------------------------- */}
             <Carousel>
                 <Carousel.Item style={{ height: "300px" }}>
-                    <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MjkwNTA2&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1400" />
+                    <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MjkwNTA2&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1400" alt="img"/>
                     <Carousel.Caption>
                         <h2>First</h2>
                         <p>abc</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item style={{ height: "300px" }}>
-                    <img src="https://images.unsplash.com/photo-1616390865493-ef36c0680870?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MjkwNjkx&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1400" />
+                    <img src="https://images.unsplash.com/photo-1616390865493-ef36c0680870?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MjkwNjkx&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1400" alt="img"/>
                     <Carousel.Caption>
                         <h2>Sec</h2>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item style={{ height: "300px" }}>
-                    <img src="https://images.unsplash.com/photo-1615631570866-4ff59a69093a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MjkwNzg0&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1400" />
+                    <img src="https://images.unsplash.com/photo-1615631570866-4ff59a69093a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MjkwNzg0&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1400" alt="img"/>
                     <Carousel.Caption>
                         <h2>3</h2>
                     </Carousel.Caption>
@@ -40,29 +40,29 @@ const Health = () => {
             {/* -------------------------------------------------Government-------------------------------------------------- */}
             <Container className="d-flex p-2 align-items-center justify-content-center flex-wrap mt-5">
                 <Card className="m-4 mb-3" style={{ width: "18rem" }}>
-                    <img src="https://images.unsplash.com/photo-1616064988065-d7f80aa3b54f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MjkwNTQ3&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300" />
+                    <img src="https://images.unsplash.com/photo-1616064988065-d7f80aa3b54f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MjkwNTQ3&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300" alt="img"/>
                     <Card.Body>
                         <h5 class="card-title">Ganga Action Plan</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-info">Learn More</a>
+                        <a href="/ganga-action-plan" class="btn btn-info">Learn More</a>
                     </Card.Body>
                 </Card>
 
                 <Card className="m-4 mb-3" style={{ width: "18rem" }}>
-                    <img src="https://images.unsplash.com/photo-1616391182219-e080b4d1043a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MjkwNDM4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300" />
+                    <img src="https://images.unsplash.com/photo-1616391182219-e080b4d1043a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MjkwNDM4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300" alt="img"/>
                     <Card.Body>
                         <h5 class="card-title">National Clean Air Programme (NCAP)</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-info">Learn More</a>
+                        <a href="/ncap" class="btn btn-info">Learn More</a>
                     </Card.Body>
                 </Card>
 
                 <Card className="m-4 mb-3" style={{ width: "18rem" }}>
-                    <img src="https://images.unsplash.com/photo-1615631648086-325025c9e51e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=310&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MjkxMDA2&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=310" />
+                    <img src="https://images.unsplash.com/photo-1615631648086-325025c9e51e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=310&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MjkxMDA2&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=310" alt="img"/>
                     <Card.Body>
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-info">Learn More</a>
+                        <a href="/" class="btn btn-info">Learn More</a>
                     </Card.Body>
                 </Card>
             </Container>
@@ -74,17 +74,17 @@ const Health = () => {
                     <Card.Header>
                         <ul class="nav nav-pills card-header-pills">
                             <li class="nav-item">
-                                <a class="nav-link active btn-info" href="#">Active</a>
+                                <a class="nav-link active btn-info" href="/health">Active</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Learn more</a>
+                                <a class="nav-link" href="/donate-blood">Learn more</a>
                             </li>
                         </ul>
                     </Card.Header>
                     <Card.Body>
                         <h5 class="card-title">Donte blood</h5>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-info">Donate</a>
+                        <a href="/donate-blood" class="btn btn-info">Donate</a>
                     </Card.Body>
                 </Card>
 
@@ -102,7 +102,7 @@ const Health = () => {
                     <Card.Body>
                         <h5 class="card-title">Hospital Foundations</h5>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-info">Learn more</a>
+                        <a href="/hospital-foundations" class="btn btn-info">Learn more</a>
                     </Card.Body>
                 </Card>
             </Container>

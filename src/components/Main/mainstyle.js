@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import image1 from "./background.png";
 
 export const Container = styled.div`
 background: linear-gradient(90deg, #fc5185, orange);

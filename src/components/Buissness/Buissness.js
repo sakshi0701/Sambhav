@@ -9,20 +9,20 @@ const Buissness = () => {
                 {/* -------------------------------------------------Carousel-------------------------------------------------- */}
                 <Carousel>
                     <Carousel.Item style={{ height: "300px" }}>
-                        <img src="https://assets.phenompeople.com/CareerConnectResources/COGNGLOBAL/images/home-page-banner-1536070928470.jpg" />
+                        <img src="https://assets.phenompeople.com/CareerConnectResources/COGNGLOBAL/images/home-page-banner-1536070928470.jpg" alt="img"/>
                         <Carousel.Caption>
                             <h2 className="text-dark">First</h2>
                             <p>abc</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item style={{ height: "300px" }}>
-                        <img src="https://images.unsplash.com/photo-1617854616735-d4a41198e6c1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MjE0OTAz&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1400" />
+                        <img src="https://images.unsplash.com/photo-1617854616735-d4a41198e6c1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MjE0OTAz&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1400" alt="img"/>
                         <Carousel.Caption>
                             <h2>Sec</h2>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item style={{ height: "300px" }}>
-                        <img src="https://images.unsplash.com/photo-1618029215393-e8ab58c45148?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MjE1MDc0&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1400" />
+                        <img src="https://images.unsplash.com/photo-1618029215393-e8ab58c45148?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MjE1MDc0&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1400" alt="img"/>
                         <Carousel.Caption>
                             <h2>3</h2>
                         </Carousel.Caption>
@@ -50,7 +50,7 @@ const Buissness = () => {
                 {/* -------------------------------------------------Explore-------------------------------------------------- */}
                 <Container className="d-flex p-2 align-items-center justify-content-center flex-wrap mt-5">
                     <Card className="m-4 mb-3" style={{ width: "18rem" }}>
-                        <img src="https://images.unsplash.com/photo-1509475826633-fed577a2c71b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MjE2NTM1&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300" />
+                        <img src="https://images.unsplash.com/photo-1509475826633-fed577a2c71b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MjE2NTM1&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300" alt="img"/>
                         <Card.Body>
                             <h5 class="card-title">Buissness Ideas</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -59,7 +59,7 @@ const Buissness = () => {
                     </Card>
 
                     <Card className="m-4 mb-3" style={{ width: "18rem" }}>
-                        <img src="https://images.unsplash.com/photo-1607544836657-08d9c1d97afe?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MjE2NTI4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300" />
+                        <img src="https://images.unsplash.com/photo-1607544836657-08d9c1d97afe?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MjE2NTI4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300" alt="img"/>
                         <Card.Body>
                             <h5 class="card-title">Interview Tips</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -68,7 +68,7 @@ const Buissness = () => {
                     </Card>
 
                     <Card className="m-4 mb-3" style={{ width: "18rem" }}>
-                        <img src="https://images.unsplash.com/photo-1617617982378-c2f9325dae3e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MjE3MTYz&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300" />
+                        <img src="https://images.unsplash.com/photo-1617617982378-c2f9325dae3e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MjE3MTYz&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300" alt="img"/>
                         <Card.Body>
                             <h5 class="card-title">Work from home tips</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Background, Content, H1, P } from "./mainstyle";
+import { Container, Content, H1, P } from "./mainstyle";
 import '../About Section/image.css'
 
 const Main = () => {

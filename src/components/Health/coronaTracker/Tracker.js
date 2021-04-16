@@ -25,9 +25,6 @@ function Tracker() {
       });
   }, []);
 
-  const date = new Date(parseInt(latest.updated));
-  const lastUpdated = date.toString();
-
   const filterCountries = results.filter((item) => {
     return searchCountries !== ""
       ? item.country.toLowerCase().includes(searchCountries.toLowerCase())

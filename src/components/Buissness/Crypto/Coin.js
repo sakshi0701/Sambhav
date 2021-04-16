@@ -6,7 +6,7 @@ const Coin = ({ image, name, symbol, price, volume, priceChange, marketcap }) =>
         <div className="coin-container">
             <div className="coin-row">
                 <div className="coin">
-                    <img src={image} alt="Error loading image"/>
+                    <img src={image} alt="img"/>
                     <h1>{name}</h1>
                     <p className="coin-symbol">{symbol}</p>
                 </div>

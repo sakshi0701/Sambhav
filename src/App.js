@@ -11,6 +11,7 @@ import Health from './components/Health/Health';
 import Tracker from './components/Health/coronaTracker/Tracker';
 import Education from './components/Education/Education';
 import Environment from './components/Environment/Environment';
+import WildFire from './components/Environment/Wildfire/Wildfire';
 import Login from './components/Login';
 import PrivateRoute from './components/PrivateRoute';
 import ForgotPassword from './components/ForgotPassword';
@@ -35,6 +36,7 @@ function App() {
                   <PrivateRoute path="/education" component={Education} />
                   <PrivateRoute path="/environment" component={Environment} />
                   <PrivateRoute path="/covid" component={Tracker} />
+                  <PrivateRoute path="/wildfire" component={WildFire} />
                   <PrivateRoute path="/crypto" component={Crypto} />
                   <PrivateRoute path="/jobs" component={JobSearch} />
                   <Route path="/signup" component={Signup} />
