@@ -54,7 +54,7 @@ const Environment = () => {
                     <Card.Body>
                         <h5 class="card-title">Ganga Action Plan</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-info">Learn More</a>
+                        <a href="/environment" class="btn btn-info">Learn More</a>
                     </Card.Body>
                 </Card>
 
@@ -63,7 +63,7 @@ const Environment = () => {
                     <Card.Body>
                         <h5 class="card-title">National Clean Air Programme (NCAP)</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-info">Learn More</a>
+                        <a href="/environment" class="btn btn-info">Learn More</a>
                     </Card.Body>
                 </Card>
 
@@ -72,7 +72,7 @@ const Environment = () => {
                     <Card.Body>
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-info">Learn More</a>
+                        <a href="/environment" class="btn btn-info">Learn More</a>
                     </Card.Body>
                 </Card>
             </Container>
@@ -84,17 +84,17 @@ const Environment = () => {
                     <Card.Header>
                         <ul class="nav nav-pills card-header-pills">
                             <li class="nav-item">
-                                <a class="nav-link active btn-success" href="#">Active</a>
+                                <a class="nav-link active btn-success" href="/environment">Active</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Learn more</a>
+                                <a class="nav-link" href="/environment">Learn more</a>
                             </li>
                         </ul>
                     </Card.Header>
                     <Card.Body>
                         <h5 class="card-title">Special title treatment</h5>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-success">Plant</a>
+                        <a href="/environment" class="btn btn-success">Plant</a>
                     </Card.Body>
                 </Card>
 
@@ -102,17 +102,17 @@ const Environment = () => {
                     <Card.Header>
                         <ul class="nav nav-pills card-header-pills">
                             <li class="nav-item">
-                                <a class="nav-link active btn-info" href="#">Active</a>
+                                <a class="nav-link active btn-info" href="/environment">Active</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Learn more</a>
+                                <a class="nav-link" href="/environment">Learn more</a>
                             </li>
                         </ul>
                     </Card.Header>
                     <Card.Body>
                         <h5 class="card-title">Submit your solution</h5>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-info">Submit</a>
+                        <a href="/environment" class="btn btn-info">Submit</a>
                     </Card.Body>
                 </Card>
             </Container>

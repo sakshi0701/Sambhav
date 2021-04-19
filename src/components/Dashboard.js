@@ -41,7 +41,7 @@ export default function Dashboard() {
 
       <Container className="d-flex p-2 align-items-center justify-content-center flex-wrap mt-5">
         <Card className="m-2" style={{ width: "40%" }}>
-          <Link to="/buissness">Buissness</Link>
+          <Link to="/buisness">Buissness</Link>
         </Card>
 
         <Card className="m-2" style={{ width: "40%" }}>

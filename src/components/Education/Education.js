@@ -44,7 +44,7 @@ const Education = () => {
                     <Card.Body>
                         <h5 class="card-title">Coding</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-info">Learn More</a>
+                        <a href="/education" class="btn btn-info">Learn More</a>
                     </Card.Body>
                 </Card>
 
@@ -53,7 +53,7 @@ const Education = () => {
                     <Card.Body>
                         <h5 class="card-title">Cooking</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-info">Learn More</a>
+                        <a href="/education" class="btn btn-info">Learn More</a>
                     </Card.Body>
                 </Card>
 
@@ -62,7 +62,7 @@ const Education = () => {
                     <Card.Body>
                         <h5 class="card-title">Reading</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-info">Learn More</a>
+                        <a href="/education" class="btn btn-info">Learn More</a>
                     </Card.Body>
                 </Card>
             </Container>
@@ -74,17 +74,17 @@ const Education = () => {
                     <Card.Header>
                         <ul class="nav nav-pills card-header-pills">
                             <li class="nav-item">
-                                <a class="nav-link active btn-info" href="#">Active</a>
+                                <a class="nav-link active btn-info" href="/education">Active</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Learn more</a>
+                                <a class="nav-link" href="/education">Learn more</a>
                             </li>
                         </ul>
                     </Card.Header>
                     <Card.Body>
                         <h5 class="card-title">Donate books</h5>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-info">Donate{'>>'}</a>
+                        <a href="/education" class="btn btn-info">Donate{'>>'}</a>
                     </Card.Body>
                 </Card>
 
@@ -92,17 +92,17 @@ const Education = () => {
                     <Card.Header>
                         <ul class="nav nav-pills card-header-pills">
                             <li class="nav-item">
-                                <a class="nav-link active btn-info" href="#">Active</a>
+                                <a class="nav-link active btn-info" href="/education">Active</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Learn more</a>
+                                <a class="nav-link" href="/education">Learn more</a>
                             </li>
                         </ul>
                     </Card.Header>
                     <Card.Body>
                         <h5 class="card-title">Educate a Girl child</h5>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-info">Continue{'>>'}</a>
+                        <a href="/education" class="btn btn-info">Continue{'>>'}</a>
                     </Card.Body>
                 </Card>
             </Container>

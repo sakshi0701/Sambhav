@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Card, Carousel } from 'react-bootstrap'
 
-const Buissness = () => {
+const Buisness = () => {
     return (
         <>
 
@@ -54,7 +54,7 @@ const Buissness = () => {
                         <Card.Body>
                             <h5 class="card-title">Buissness Ideas</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-info">Explore${'>>'}</a>
+                            <a href="/buisness" class="btn btn-info">Explore${'>>'}</a>
                         </Card.Body>
                     </Card>
 
@@ -63,7 +63,7 @@ const Buissness = () => {
                         <Card.Body>
                             <h5 class="card-title">Interview Tips</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-info">Learn More</a>
+                            <a href="/buisness" class="btn btn-info">Learn More</a>
                         </Card.Body>
                     </Card>
 
@@ -72,7 +72,7 @@ const Buissness = () => {
                         <Card.Body>
                             <h5 class="card-title">Work from home tips</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-info">Learn More</a>
+                            <a href="/buisness" class="btn btn-info">Learn More</a>
                         </Card.Body>
                     </Card>
                 </Container>
@@ -83,17 +83,17 @@ const Buissness = () => {
                         <Card.Header>
                             <ul class="nav nav-pills card-header-pills">
                                 <li class="nav-item">
-                                    <a class="nav-link active btn-info" href="#">Active</a>
+                                    <a class="nav-link active btn-info" href="/buisness">Active</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Learn more</a>
+                                    <a class="nav-link" href="/buisness">Learn more</a>
                                 </li>
                             </ul>
                         </Card.Header>
                         <Card.Body>
                             <h5 class="card-title">Post a Job</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-info">Plant</a>
+                            <a href="/buisness" class="btn btn-info">Plant</a>
                         </Card.Body>
                     </Card>
 
@@ -101,24 +101,23 @@ const Buissness = () => {
                         <Card.Header>
                             <ul class="nav nav-pills card-header-pills">
                                 <li class="nav-item">
-                                    <a class="nav-link active btn-info" href="#">Active</a>
+                                    <a class="nav-link active btn-info" href="/buisness">Active</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Learn more</a>
+                                    <a class="nav-link" href="/buisness">Learn more</a>
                                 </li>
                             </ul>
                         </Card.Header>
                         <Card.Body>
                             <h5 class="card-title">Submit your solution</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-info">Submit</a>
+                            <a href="/buisness" class="btn btn-info">Submit</a>
                         </Card.Body>
                     </Card>
                 </Container>
-            </>
+        </>
 
-            
     )
 }
 
-export default Buissness;
+export default Buisness;
