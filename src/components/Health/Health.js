@@ -84,7 +84,7 @@ const Health = () => {
                     <Card.Body>
                         <h5 class="card-title">Donte blood</h5>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="/donate-blood" class="btn btn-info">Donate</a>
+                        <a href="/bloodDonor" class="btn btn-info">Donate</a>
                     </Card.Body>
                 </Card>
 

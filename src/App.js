@@ -23,6 +23,7 @@ import Environment from './components/Environment/Environment';
 
 import Health from './components/Health/Health';
 import Tracker from './components/Health/coronaTracker/Tracker';
+import Blood_Donor from './components/Health/blood_donation/Blood_Donor';
 
 import './App.css';
 
@@ -45,6 +46,7 @@ function App() {
                   <PrivateRoute path="/environment" component={Environment} />
                   <PrivateRoute path="/health" component={Health} />
                   <PrivateRoute path="/covid" component={Tracker} />
+                  <PrivateRoute path="/bloodDonor" component={Blood_Donor} />
                   <Route path="/signup" component={Signup} />
                   <Route path="/login" component={Login} />
                   <Route path="/forgot-password" component={ForgotPassword} />

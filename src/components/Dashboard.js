@@ -22,7 +22,7 @@ export default function Dashboard() {
   return (
     <>
       <Container className="d-flex align-items-center justify-content-center mt-5">
-        <Card style={{ width: "80%" }}>
+        <Card style={{ width: "80%" }} >
           <Card.Body>
             <h2 className="text-center mb-4">Profile</h2>
             {error && <Alert variant="danger">{error}</Alert>}
@@ -40,7 +40,7 @@ export default function Dashboard() {
       </div>
 
       <Container className="d-flex p-2 align-items-center justify-content-center flex-wrap mt-5">
-        <Card className="m-2" style={{ width: "40%" }}>
+        <Card className="m-2" style={{ width: "40%" }} >
           <Link to="/buisness">Buissness</Link>
         </Card>
 
