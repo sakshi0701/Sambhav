@@ -1,5 +1,6 @@
 import { Container, Card, Carousel } from 'react-bootstrap'
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Education = () => {
     return (
@@ -44,7 +45,7 @@ const Education = () => {
                     <Card.Body>
                         <h5 class="card-title">Coding</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="/education" class="btn btn-info">Learn More</a>
+                        <Link to="/education" class="btn btn-info">Learn More</Link>
                     </Card.Body>
                 </Card>
 
@@ -53,7 +54,7 @@ const Education = () => {
                     <Card.Body>
                         <h5 class="card-title">Cooking</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="/education" class="btn btn-info">Learn More</a>
+                        <Link to="/cook" class="btn btn-info">Explore {`>>`}</Link>
                     </Card.Body>
                 </Card>
 
