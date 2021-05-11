@@ -19,6 +19,7 @@ import JobSearch from './components/Buisness/Job/JobSearch';
 
 import Education from './components/Education/Education';
 import Recipes from './components/Education/Skills/Cooking/recipes/Recipes';
+import Code from './components/Education/Skills/Coding/Code';
 
 import Environment from './components/Environment/Environment';
 
@@ -44,6 +45,7 @@ function App() {
                   <PrivateRoute path="/crypto" component={Crypto} />
                   <PrivateRoute path="/jobs" component={JobSearch} />
                   <PrivateRoute path="/education" component={Education} />
+                  <PrivateRoute path="/code" component={Code} />
                   <PrivateRoute path="/cook" component={Recipes} />
                   <PrivateRoute path="/environment" component={Environment} />
                   <PrivateRoute path="/health" component={Health} />
