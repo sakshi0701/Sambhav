@@ -16,6 +16,7 @@ import ForgotPassword from './authentication/ForgotPassword';
 import Buisness from './components/Buisness/Buisness';
 import Crypto from './components/Buisness/Crypto/Crypto';
 import JobSearch from './components/Buisness/Job/JobSearch';
+import Resume from './components/Buisness/Resume/Resume';
 
 import Education from './components/Education/Education';
 import Recipes from './components/Education/Skills/Cooking/recipes/Recipes';
@@ -42,6 +43,7 @@ function App() {
                   <PrivateRoute exact path="/" component={Dashboard} />
                   <PrivateRoute path="/update-profile" component={UpdateProfile} />
                   <PrivateRoute path="/buisness" component={Buisness} />
+                  <PrivateRoute path="/resume-build" component={Resume} />
                   <PrivateRoute path="/crypto" component={Crypto} />
                   <PrivateRoute path="/jobs" component={JobSearch} />
                   <PrivateRoute path="/education" component={Education} />

@@ -109,9 +109,9 @@ const Buisness = () => {
                             </ul>
                         </Card.Header>
                         <Card.Body>
-                            <h5 class="card-title">Submit your solution</h5>
+                            <h5 class="card-title">Build your Resume</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="/buisness" class="btn btn-info">Submit</a>
+                            <a href="/resume-build" class="btn btn-info">Build {`>>`} </a>
                         </Card.Body>
                     </Card>
                 </Container>
